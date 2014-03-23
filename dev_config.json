@@ -1,0 +1,20 @@
+{
+    "isDev": true,
+    "session": {
+        "host": "localhost",
+        "port": 6379,
+        "db": 1,
+        "secret": "bang!",
+        "secure": false
+    },
+    "http": {
+        "listen": "0.0.0.0",
+        "port": 3000,
+        "clientTestPort": 4242
+    },
+    "client": {
+        "apiUrl": "http://localhost:3000",
+        "debugMode": true
+    },
+    "flickr_api_key": "eaa4819e96f0ba25b7b2a72e7da92df9"
+}
