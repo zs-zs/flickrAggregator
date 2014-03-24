@@ -4,7 +4,7 @@ var HumanModel = require('human-model');
 var HumanView = require('human-view');
 var PhotoModel = require('../models/photo');
 var PhotoListModel = require('../models/photoList');
-var PhotoAggregator = require('../models/PhotoAggregator');
+var PhotoAggregator = require('../models/photoAggregator');
 
 describe('models/Photo', function() {
 	it('has an url attribute', function() {
