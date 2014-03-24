@@ -14,4 +14,6 @@ Sample application using the Flickr API.
 1. start the server: `node server.js`
 1. you can run the *client tests* on different browsers by opening http://localhost:4242
 1. you can run the *automated QA checklist* on different browsers by opening: http://localhost:3000/test
-1. you can run tests for the server API with: `jasmine-node spec`
+1. you can run the tests for the server API: 
+    - you have to install `jasmine-node` first with `npm install jasmine-node -g` 
+    - now you can run the tests with `jasmine-node spec`
